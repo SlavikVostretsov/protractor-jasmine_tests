@@ -16,7 +16,7 @@ $ npm run test
 
 npm install -g allure-commandline
  
-# Run allure to generate report
+# Run allure to generate the report
 
 $ allure generate allure-results --clean -o allure-report
 
@@ -30,7 +30,7 @@ $ allure generate allure-results --clean -o allure-report
 
 ![Alt text](./readme_screenshots/Success_Suites.png?raw=true "Title")
 
-# Failed scenario with screenshot
+# Failed scenario with the screenshot
 
 ![Alt text](./readme_screenshots/Error.png?raw=true "Title")
 
