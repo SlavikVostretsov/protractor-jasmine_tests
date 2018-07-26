@@ -14,7 +14,7 @@ $ npm run test
 
 # Install Allure Command Line Tool globally
 
-npm install -g allure-commandline
+$ npm install -g allure-commandline
  
 # Run allure to generate the report
 
