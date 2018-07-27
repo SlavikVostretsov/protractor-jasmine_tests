@@ -8,6 +8,13 @@ const invalidCredentials = [{
     incorrectData: "password"
 }];
 
+const messages = {
+    welcomeMessage: "WELCOME :)",
+    accessDeniedMessage: "ACCESS DENIED!",
+    cookieMissingMessage: "THE SESSION COOKIE IS MISSING OR HAS A WRONG VALUE!"
+}
+
 module.exports = {
-    invalidCredentials: invalidCredentials
+    invalidCredentials: invalidCredentials,
+    messages: messages
 }

@@ -2,6 +2,7 @@ exports.config = {
     specs: [
         './specs/*spec.js'
     ],
+
     chromeOnly: true,
     baseUrl: 'http://testing-ground.scraping.pro',
     jasmineNodeOpts: {
@@ -18,6 +19,13 @@ exports.config = {
     capabilities: {
         browserName: 'chrome',
         shardTestFiles: true
+    },
+
+    params: {
+        credentials: {
+            username: "admin",
+            password: "12345"
+        },
     },
 
     onPrepare: function () {
